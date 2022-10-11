@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 60px;
+  border-bottom: 1px solid black;
+  padding-inline: 40px;
+
+  background-color: var(--black-color);
+}
+
+nav .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+nav .menu .link {
+  color: white;
+  border: 1px solid white;
+  padding: 7px 13px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+nav .menu .link:hover {
+  background-color: white;
+  cursor: pointer;
+  color: var(--black-color);
+  transition: 0.2s;
+}

@@ -1,0 +1,42 @@
+.offers-container {
+  overflow: hidden;
+  padding-left: 10vw;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--neutral);
+}
+
+.offers-container h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: max(70vw, 400px);
+}
+
+.offers-container p {
+  width: 400px;
+  color: var(--gray);
+}
+
+.offers-container button.ops-btn {
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 16px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  border: 2px solid var(--black-color);
+  transition: 0.2s;
+}
+
+.offers-container button.ops-btn:hover {
+  cursor: pointer;
+  background-color: var(--black-color);
+  border: 2px solid white;
+  color: white;
+  transition: 0.2s;
+}

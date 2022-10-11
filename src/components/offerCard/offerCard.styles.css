@@ -1,0 +1,54 @@
+.offersCard-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.offer-card {
+  border: 2px solid var(--black-color);
+  padding: 20px 30px;
+  border-radius: 20px;
+  width: 260px;
+  background-color: var(--light-color);
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.offersCard-container .offer-card p {
+  width: 100%;
+  color: black;
+}
+
+.offer-card .price {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.offer-card button {
+  align-self: flex-end;
+
+  margin-top: 13px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 16px;
+  background-color: var(--light-color);
+  border-radius: 10px;
+  border: 2px solid var(--black-color);
+  transition: 0.2s;
+}
+
+.offer-card button:hover {
+  cursor: pointer;
+  background-color: var(--black-color);
+  border: 2px solid var(--light-color);
+  color: white;
+  transition: 0.2s;
+}
